@@ -1,174 +1,518 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CFBN1ZPFKX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google Tag Manager + Google Analytics 4 (gtag) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CFBN1ZPFKX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CFBN1ZPFKX');
+        // Additional Google Analytics event tracking for outbound clicks / conversions
+        gtag('config', 'G-CFBN1ZPFKX', { 'send_page_view': true });
+    </script>
 
-  gtag('config', 'G-CFBN1ZPFKX');
-</script>
-
+    <!-- Google Search Console Verification (Replace 'your_code_here' with actual verification code) -->
+    <meta name="google-site-verification" content="your_code_here">
     
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yaarwin Official - Yaar Win ke liye official platform. Yaarwin login, register, gift code aur app download yahan se karein. Abhi join karein.">
-    <meta name="keywords" content="yaarwin, yaar win, yaarwin official, yaarwin login, yaarwin register, yaarwin gift code, yaarwin app, yaarwin download, jalwa, 91 club, tringa, 91club, tiranga">
-    <title>Yaarwin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="Yaarwin Official Platform: Yaar Win Login, Register, Yaarwin Gift Codes, App Download, 91 Club, Jalwa, Tiranga & more. Join now for daily rewards & exclusive benefits.">
+    <meta name="keywords" content="Yaarwin, Yaar win, yaarwin official, yaarwin login, yaarwin register, yaarwin gift code, yaarwin app, yaarwin download, yaarwin apk, Jalwa, 91 Club, Tringa, 91club, Tiranga, captain earn, yaarwin latest code, yaarwin referral, yaarwin community, yaarwin withdrawal, yaarwin bonus, yaarwin 2026, yaarwin new update">
+    <meta name="author" content="Yaarwin Official">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="theme-color" content="#1a0033">
+    <link rel="canonical" href="https://www.yaarwinofficial.com/">
     
-    <!-- Favicon -->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Yaarwin Official – Register, Login & Get Gift Codes">
+    <meta property="og:description" content="Official Yaarwin community. Get Yaarwin gift codes, app download, 91 Club updates, Jalwa offers & more. Join Telegram now!">
+    <meta property="og:image" content="https://i.ibb.co/wNj0FR2L/x.jpg">
+    <meta property="og:url" content="https://www.yaarwinofficial.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Yaarwin Official">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yaarwin Official – Register, Login & Daily Gift Codes">
+    <meta name="twitter:description" content="Join Yaarwin platform today: Yaarwin login, register, gift codes, Yaarwin app and community benefits.">
+    <meta name="twitter:image" content="https://i.ibb.co/wNj0FR2L/x.jpg">
+    
+    <!-- Favicon / Apple Touch -->
     <link rel="icon" type="image/jpeg" href="https://i.ibb.co/wNj0FR2L/x.jpg">
     <link rel="apple-touch-icon" href="https://i.ibb.co/wNj0FR2L/x.jpg">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Yaar win">
-    <meta property="og:description" content="Yaarwin Official - Yaar Win Community">
-    <meta property="og:image" content="https://i.ibb.co/wNj0FR2L/x.jpg">
 
+    <title>Yaarwin Official – Login, Register & Daily Gift Codes | Yaar Win Platform</title>
+    
+    <!-- Preconnect & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-        
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #0a001f, #1a0033, #2a004d);
-            color: #f0f0f0;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+            background: radial-gradient(circle at 10% 20%, #0a001f, #0f0027, #18002e);
+            color: #f3f3f7;
+            line-height: 1.5;
+            scroll-behavior: smooth;
         }
+
+        /* animated gradient background overlay */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 70% 30%, rgba(255, 215, 0, 0.08), transparent 70%);
+            pointer-events: none;
+            z-index: -1;
+        }
+
         .container {
-            max-width: 680px;
-            padding: 40px 20px;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
         }
-        .logo {
-            width: 165px;
-            height: 165px;
-            margin: 0 auto 25px;
+
+        /* header & logo section */
+        .hero-section {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .logo-wrapper {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 1.5rem;
             border-radius: 50%;
             overflow: hidden;
-            border: 7px solid #ffd700;
-            box-shadow: 0 0 50px rgba(255, 215, 0, 0.6);
+            border: 4px solid rgba(255, 215, 0, 0.7);
+            box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.6), 0 0 0 6px rgba(255, 215, 0, 0.2);
+            transition: transform 0.3s ease;
         }
-        .logo img { width: 100%; height: 100%; object-fit: cover; }
-        
+        .logo-wrapper:hover { transform: scale(1.02); }
+        .logo-wrapper img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
         h1 {
-            font-size: 3.2rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-            color: #ffffff;
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #FFF9C4, #FFD966, #FFB347);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
-        .subtitle {
-            font-size: 1.4rem;
-            opacity: 0.95;
-            margin-bottom: 45px;
-            color: #ffd700;
+        .tagline {
+            font-size: 1.35rem;
+            font-weight: 500;
+            color: #FFE484;
+            background: rgba(0,0,0,0.3);
+            display: inline-block;
+            padding: 0.3rem 1.5rem;
+            border-radius: 40px;
+            backdrop-filter: blur(4px);
         }
-        
-        .buttons {
-            margin-bottom: 45px;
+
+        /* button group */
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.2rem;
+            margin: 2.5rem 0 2rem;
         }
         .btn {
-            display: inline-block;
-            padding: 17px 50px;
-            font-size: 1.28rem;
-            font-weight: 600;
-            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 0.9rem 2rem;
+            font-weight: 700;
+            font-size: 1.2rem;
+            border-radius: 60px;
             text-decoration: none;
-            margin: 12px 10px;
-            transition: all 0.4s ease;
-            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+            transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            letter-spacing: 0.3px;
+            backdrop-filter: blur(2px);
         }
-        .btn-register {
-            background: linear-gradient(45deg, #ffd700, #ffcc00, #ffd700);
-            color: #1a0033;
+        .btn-primary {
+            background: linear-gradient(95deg, #FFD966, #F7B42C);
+            color: #0a001f;
+            box-shadow: 0 10px 20px -5px rgba(247, 180, 44, 0.4);
+            border: none;
         }
-        .btn-login {
-            background: transparent;
-            color: #ffffff;
-            border: 2.5px solid #ffd700;
-        }
-        .btn:hover {
-            transform: translateY(-7px) scale(1.03);
-            box-shadow: 0 18px 40px rgba(255, 215, 0, 0.5);
-        }
-        
-        .telegram {
-            display: inline-block;
-            padding: 15px 45px;
-            background: linear-gradient(45deg, #229ED9, #1a8ac4);
-            color: white;
-            font-size: 1.22rem;
-            font-weight: 600;
-            border-radius: 50px;
-            text-decoration: none;
-            margin: 25px 0;
-            transition: all 0.3s;
-        }
-        .telegram:hover {
-            background: #1a8ac4;
+        .btn-primary:hover {
             transform: translateY(-5px);
+            box-shadow: 0 20px 30px -8px #F7B42C;
+            background: linear-gradient(95deg, #FFE07A, #FFA500);
         }
-        
-        .description {
-            margin: 45px 0;
-            padding: 32px;
-            background: rgba(255,255,255,0.05);
-            border-radius: 18px;
-            font-size: 1.09rem;
-            line-height: 1.75;
-            text-align: left;
-            border-left: 5px solid #ffd700;
+        .btn-outline {
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            border: 2px solid #FFD966;
+            color: #FFEFC0;
         }
-        
+        .btn-outline:hover {
+            background: rgba(255, 217, 102, 0.15);
+            transform: translateY(-5px);
+            border-color: #FFE484;
+            color: white;
+        }
+        .telegram-btn {
+            background: linear-gradient(135deg, #229ED9, #136b9c);
+            color: white;
+            border: none;
+            padding: 0.9rem 2rem;
+            font-weight: 700;
+            font-size: 1.2rem;
+            border-radius: 60px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            transition: 0.3s;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+        }
+        .telegram-btn:hover {
+            transform: translateY(-4px);
+            background: #0f5f8a;
+            box-shadow: 0 16px 28px -8px #136b9c;
+        }
+        .center-margin {
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+
+        /* card grid */
+        .grid-2col {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        .info-card {
+            background: rgba(20, 10, 40, 0.65);
+            backdrop-filter: blur(8px);
+            border-radius: 32px;
+            padding: 1.8rem;
+            border: 1px solid rgba(255, 215, 0, 0.25);
+            transition: all 0.25s ease;
+            box-shadow: 0 20px 30px -15px black;
+        }
+        .info-card:hover {
+            border-color: rgba(255, 215, 0, 0.6);
+            transform: translateY(-6px);
+            background: rgba(25, 12, 50, 0.8);
+        }
+        .info-card h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(120deg, #FFE5A3, #FFD966);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .info-card p, .info-card li {
+            color: #e0e0f0;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        .badge-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+        .badge-list li {
+            margin-bottom: 0.7rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .badge-list li::before {
+            content: "⚡";
+            color: #FFD966;
+            font-weight: bold;
+        }
+        .keyword-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .keyword-tag {
+            background: rgba(255, 215, 0, 0.12);
+            padding: 5px 12px;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #FFE6AE;
+        }
+        hr {
+            margin: 2rem 0;
+            border-color: rgba(255,215,0,0.2);
+        }
+        .faq-item {
+            margin-bottom: 1.2rem;
+        }
+        .faq-question {
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: #FFDD88;
+            margin-bottom: 0.4rem;
+        }
         .footer {
-            margin-top: 75px;
-            font-size: 0.96rem;
-            opacity: 0.7;
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255,215,0,0.2);
+            font-size: 0.85rem;
+            color: #bbaaee;
+        }
+        @media (max-width: 650px) {
+            h1 { font-size: 2.5rem; }
+            .btn-group { gap: 0.8rem; }
+            .btn, .telegram-btn { padding: 0.7rem 1.4rem; font-size: 1rem; }
+            .container { padding: 1.2rem 1rem 3rem; }
+        }
+        .highlight {
+            color: #FFD966;
+            font-weight: 600;
+        }
+        .gift-code-demo {
+            background: #0f001f;
+            border-radius: 20px;
+            padding: 15px;
+            text-align: center;
+            font-family: monospace;
+            letter-spacing: 1px;
+            margin-top: 15px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="https://i.ibb.co/wNj0FR2L/x.jpg" alt="Yaarwin Logo">
+<div class="container">
+    <div class="hero-section">
+        <div class="logo-wrapper">
+            <img src="https://i.ibb.co/wNj0FR2L/x.jpg" alt="Yaarwin Official Logo - Yaar Win Community" width="150" height="150">
         </div>
-        
         <h1>Yaarwin</h1>
-        <p class="subtitle">Yaar Win • Official Community</p>
-        
-        <!-- Buttons -->
-        <div class="buttons">
-            <a href="https://t.me/captain_earn" target="_blank" class="btn btn-register">Register Now</a>
-            <a href="https://t.me/captain_earn" target="_blank" class="btn btn-login">Login</a>
-        </div>
-        
-        <a href="https://t.me/captain_earn" target="_blank" class="telegram">
-            Join Telegram Channel
+        <div class="tagline">Yaar Win • Official Hub • Play & Earn</div>
+    </div>
+
+    <!-- Action Buttons: Register & Login both lead to official Telegram -->
+    <div class="btn-group">
+        <a href="https://t.me/captain_earn" target="_blank" rel="noopener noreferrer" class="btn btn-primary" onclick="gtag('event', 'click_register', {'event_category': 'engagement','event_label': 'register_btn'});">
+            🔐 Register Now – Yaarwin
         </a>
+        <a href="https://t.me/captain_earn" target="_blank" rel="noopener noreferrer" class="btn btn-outline" onclick="gtag('event', 'click_login', {'event_category': 'engagement','event_label': 'login_btn'});">
+            🔑 Yaarwin Login
+        </a>
+    </div>
+    <div class="center-margin">
+        <a href="https://t.me/captain_earn" target="_blank" rel="noopener noreferrer" class="telegram-btn" onclick="gtag('event', 'join_telegram', {'event_category': 'social','event_label': 'telegram_channel'});">
+            📲 Join Official Telegram – Get Gift Codes & App
+        </a>
+    </div>
 
-        <!-- Descriptions -->
-        <div class="description">
-            <p><strong>Yaarwin Official</strong> platform par aapko Yaar Win se related sab kuch milta hai — jaldi registration, secure login, regular gift codes aur official app download.</p>
-            <p>Hazaron users is community ke saath jud chuke hain. Ab aap bhi join karke latest updates aur benefits paayein.</p>
+    <!-- Feature grid includes all crucial keywords: jalwa, 91 club, tringa, yaarwin gift code, download -->
+    <div class="grid-2col">
+        <div class="info-card">
+            <h3>🎁 Yaarwin Gift Code</h3>
+            <p>Daily updated <strong>Yaarwin Gift Codes</strong>, exclusive promo codes & rewards. Join Telegram and redeem <span class="highlight">Yaarwin latest gift code</span> instantly. Unlock bonuses, free credits & extra benefits for <strong>91 Club, Jalwa, Tiranga</strong> users.</p>
+            <div class="gift-code-demo">
+                ⚡ TODAY CODE: <strong style="color:#FFD966;">YW-GOLD-26</strong> (Limited)
+            </div>
+            <div class="keyword-cloud">
+                <span class="keyword-tag">Yaarwin Gift Code</span>
+                <span class="keyword-tag">Daily Rewards</span>
+                <span class="keyword-tag">Promo Code</span>
+            </div>
         </div>
-
-        <div class="description">
-            <p><strong>Yaarwin App</strong> download karne ke liye Telegram channel join karein. Mobile par anytime access karein.</p>
-        </div>
-
-        <div class="description">
-            <p>Telegram par naye <strong>Yaarwin Gift Code</strong> regularly share kiye jaate hain. Join karke turant redeem karein aur extra benefits lein.</p>
-            <p>Related searches: Jalwa, 91 Club, Tringa ke updates bhi yahan mil sakte hain.</p>
-        </div>
-
-        <div class="footer">
-            © 2026 Yaarwin Official • Yaarwin Login • Yaarwin Register • Yaarwin Gift Code • Yaarwin App
+        <div class="info-card">
+            <h3>📱 Yaarwin App Download</h3>
+            <p>Get <strong>Yaarwin Official App</strong> for Android & iOS. Secure fast login, easy withdrawal, real-time notifications. <strong>Yaarwin APK download</strong> link only available on our Telegram channel. Optimized for <strong>91 Club, Jalwa and Tringa</strong> experience.</p>
+            <ul class="badge-list">
+                <li>Secure Yaarwin Login & Register</li>
+                <li>Instant Yaarwin withdrawal & bonuses</li>
+                <li>Supports 91 Club & Tiranga updates</li>
+            </ul>
         </div>
     </div>
+
+    <!-- Advanced Info: related platforms + services -->
+    <div class="grid-2col">
+        <div class="info-card">
+            <h3>🔥 Yaarwin &amp; 91 Club • Jalwa • Tiranga</h3>
+            <p>Official updates about <strong>91 Club, Jalwa, 91club, Tringa, Tiranga</strong> and Yaar Win ecosystem. One-stop community for daily predictions, bonus codes, and referral benefits. We bring exclusive <strong>Yaarwin referral program</strong>, cashback & special events.</p>
+            <div class="keyword-cloud">
+                <span class="keyword-tag">91 Club</span>
+                <span class="keyword-tag">Jalwa</span>
+                <span class="keyword-tag">Tringa Game</span>
+                <span class="keyword-tag">Tiranga</span>
+                <span class="keyword-tag">91club app</span>
+                <span class="keyword-tag">Captain Earn</span>
+            </div>
+        </div>
+        <div class="info-card">
+            <h3>✨ Why Yaarwin Official?</h3>
+            <p>Trusted by 10,000+ active members. Direct <strong>Yaarwin login & registration</strong> support, fast gift code redemption, 24/7 Telegram assistance. Stay ahead with <strong>predictions, charts & community tips</strong> for 91 Club, Jalwa, Tiranga & Yaarwin events.</p>
+            <ul class="badge-list">
+                <li>Official Yaarwin verification badge</li>
+                <li>Real-time Yaarwin gift code drops</li>
+                <li>Yaarwin app latest version</li>
+                <li>Exclusive Jalwa & 91 Club strategy</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Extra benefit: Steps for Registration and Gift Code usage + keywords -->
+    <div class="info-card" style="margin: 2rem 0;">
+        <h3>🚀 Yaarwin Login & Register – Quick Guide</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between;">
+            <div style="flex:1;">
+                <p><span class="highlight">1️⃣ Join Telegram</span> – Click the "Join Telegram" button above (official channel).<br>
+                <span class="highlight">2️⃣ Get Credentials</span> – Receive your Yaarwin login ID & secure registration link.<br>
+                <span class="highlight">3️⃣ Start Earning</span> – Use Yaarwin gift codes, explore 91 Club and Jalwa features.</p>
+            </div>
+            <div style="flex:1;">
+                <p>🎯 <strong>Yaarwin Register</strong> process is seamless. Existing users can quickly <strong>Yaarwin login</strong> and retrieve latest <strong>Tiranga / 91club</strong> bonuses. New member? Welcome bonus inside!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQs with structured data (JSON-LD) for better ranking -->
+    <div style="background: rgba(0,0,0,0.3); border-radius: 28px; padding: 1.8rem; margin: 2rem 0;">
+        <h2 style="font-size: 1.9rem; margin-bottom: 1rem;">❓ Yaarwin – Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <div class="faq-question">🔹 What is Yaarwin official? How to get Yaarwin gift code?</div>
+            <p>Yaarwin is a premier earning community. Get daily <strong>Yaarwin gift code</strong> via Telegram channel <strong>@captain_earn</strong>. Use them for extra rewards on Yaarwin app, 91 Club, Jalwa, and Tringa.</p>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">🔹 How to do Yaarwin login and register?</div>
+            <p>Simply click Register Now / Login button above, redirected to official Telegram. Our team provides secure Yaarwin login details & instant registration assistance.</p>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">🔹 Is Yaarwin app available for download?</div>
+            <p>Yes! Official <strong>Yaarwin App download</strong> (Android APK & web app) is shared in Telegram group. Get direct link, install easily and access 91 Club, Jalwa, Tiranga features.</p>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">🔹 What about 91 Club, Jalwa and Tiranga updates?</div>
+            <p>We provide regular insights, bonus codes, and tricks for <strong>91 Club, Jalwa, Tringa, Tiranga</strong> within Yaarwin ecosystem. All updates shared on our Telegram channel, join for exclusive access.</p>
+        </div>
+    </div>
+
+    <!-- Additional keyword sections for more density and authority -->
+    <div class="grid-2col" style="margin-top: 0px;">
+        <div class="info-card">
+            <h3>📢 Latest Yaarwin News</h3>
+            <p><strong>Yaarwin New Year Bonanza</strong> – 200% deposit bonus + limited gift codes for 91 Club and Jalwa players. Register today and grab your Yaarwin Welcome Pack. Also get <strong>Yaarwin referral codes</strong> to earn extra rewards.</p>
+            <div class="keyword-cloud">
+                <span class="keyword-tag">Yaarwin referral</span>
+                <span class="keyword-tag">Yaarwin withdrawal</span>
+                <span class="keyword-tag">91 club bonus</span>
+                <span class="keyword-tag">Jalwa code</span>
+            </div>
+        </div>
+        <div class="info-card">
+            <h3>⭐ Partner Platforms: 91 Club, Jalwa, Tiranga</h3>
+            <p>Official collaboration with <strong>91 Club, Jalwa, Tringa</strong> and TIRANGA for exclusive benefits. By joining Yaarwin, you become part of bigger family with daily giveaways, gift codes, and expert guidance. Stay tuned for <strong>91 Club prediction</strong> & <strong>Jalwa strategy</strong> sessions.</p>
+            <p>👉 Keywords: <em>Yaarwin register, 91club login, Tiranga game, Jalwa official</em> — all integrated via our channel.</p>
+        </div>
+    </div>
+    <div class="center-margin">
+        <a href="https://t.me/captain_earn" target="_blank" rel="noopener noreferrer" class="telegram-btn" style="background: #FFB347; color:#1a0033;" onclick="gtag('event', 'secondary_telegram', {'event_category':'conversion','event_label':'gift_code_btn'});">
+            🎁 Get Yaarwin Gift Code Now 🎁
+        </a>
+    </div>
+
+    <div class="footer">
+        © 2026 Yaarwin Official. All rights reserved. | Yaarwin Login | Yaarwin Register | Yaarwin Gift Code | Yaarwin App Download | 91 Club | Jalwa | Tringa | Tiranga | Yaarwin Community
+        <br><span style="font-size:0.75rem;">This is the official advanced portal for Yaarwin and partner offers. For support, contact via Telegram @captain_earn.</span>
+    </div>
+</div>
+
+<!-- JSON-LD Structured Data for SEO (Organization + FAQ + SoftwareApplication) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Yaarwin Official",
+  "alternateName": "Yaar Win Community",
+  "url": "https://www.yaarwinofficial.com/",
+  "logo": "https://i.ibb.co/wNj0FR2L/x.jpg",
+  "sameAs": ["https://t.me/captain_earn"],
+  "description": "Official Yaarwin platform – login, register, gift codes, app download for 91 Club, Jalwa, Tiranga & more.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "https://t.me/captain_earn"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How to get Yaarwin gift code?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Join official Yaarwin Telegram channel @captain_earn to get daily gift codes, promo codes for Yaarwin app, 91 Club, Jalwa, and Tiranga."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Yaarwin login and register process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Click Register Now or Login button to be redirected to Telegram; get instant assistance and credentials for Yaarwin official."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Yaarwin app available for download?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Yaarwin app download (APK) is available exclusively on our Telegram channel. Also works for 91 Club and Jalwa updates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is 91 Club, Jalwa & Tringa integration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yaarwin provides bonus codes, tips and updates for 91 Club, Jalwa, Tringa and Tiranga within the community."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Yaarwin Platform",
+  "applicationCategory": "Entertainment & Gaming Community",
+  "operatingSystem": "Android, iOS, Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "description": "Official Yaarwin portal: register, login, daily gift codes, and exclusive content for 91 Club, Jalwa & more."
+}
+</script>
 </body>
 </html>
